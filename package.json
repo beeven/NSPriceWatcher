@@ -1,0 +1,33 @@
+{
+  "name": "nsprice-watcher",
+  "version": "1.0.0",
+  "description": "Nintendo Switch Price Watcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beeven/NSPriceWatcher.git"
+  },
+  "keywords": [
+    "NintendoSwitch",
+    "switch"
+  ],
+  "author": "Beeven Yip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beeven/NSPriceWatcher/issues"
+  },
+  "homepage": "https://github.com/beeven/NSPriceWatcher#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "koa": "^2.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.1",
+    "should": "^11.2.1"
+  }
+}
